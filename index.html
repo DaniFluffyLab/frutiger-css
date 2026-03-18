@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frutiger.css">
+    <title>Startpage</title>
+
+    <style>
+        :root {
+
+            --app-bg-image: url("https://picsum.photos/seed/accalia/1920/1080");
+
+            /* left, right, top, bottom, center */
+            --app-bg-position: bottom right;
+            --glass-color-rgb: 149, 19, 92
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            min-height: 100vh;
+            padding: 30px;
+
+            background-image: var(--app-bg-image);
+            background-position: var(--app-bg-position);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+
+        .credits {
+            padding: 20px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header></header>
+    <nav></nav>
+
+
+    <div class="credits glass-bg" href="http://github.com" target="_blank">
+        <span class="glass-element">
+            <img class="" src="https://picsum.photos/seed/bghnjulaj/100/100" alt="">
+        </span>
+    </div>
+    <br>
+    <button class="glass-element">teste do botão</button>
+    <br>
+    <br>
+
+</body>
+
+</html>
